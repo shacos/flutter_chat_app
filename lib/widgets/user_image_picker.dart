@@ -47,6 +47,7 @@ class _UserImagePickerState extends State<UserImagePicker> {
               _pickedImageFile != null ? FileImage(_pickedImageFile!) : null,
         ),
         TextButton.icon(
+          icon: const Icon(Icons.camera),
           onPressed: _pickImage,
           label: Text(
             'Add Image',
